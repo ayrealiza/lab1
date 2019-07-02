@@ -9,6 +9,14 @@
             -webkit-box-shadow: 5px 5px 5px #111;
             -box-shadow: 5px 5px 5px #111;
                }
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
 </style>
 <div class="pic">
 <img src="<img src="images/6.gif"> "></img>
