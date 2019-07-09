@@ -184,6 +184,8 @@ footer:hover{
 	.separator{
 		margin-top: 1000px;
 	}
+	.carousel {
+	}
 
 	</style>
 
@@ -286,7 +288,10 @@ footer:hover{
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, options);
+    var instances = M.Carousel.init(elems, {
+	   "duration: 300,
+	    "indicators": true
+    });
   });
 </script>
   
