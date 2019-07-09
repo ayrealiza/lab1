@@ -1,0 +1,31 @@
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar, .navbar *, .page-footer, .page-footer * {
+    background-color: #00000000;
+    color: #111111 !important;
+    box-shadow: 0 0 0;
+}
+
+.msc {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/MSClogo.png) center center;
+    z-index: -1000000000000000;
+}
+
+.parallax-wallpaper {
+    height: 100%;
+}
+.parallax-wallpaper > h1 {
+    width: 100%;
+    font-family: "Product Sans";
+    font-weight: 700;
+    letter-spacing: .11em;
+    font-size: 6em;
+    text-rendering: optimizeLegibility;
+}
