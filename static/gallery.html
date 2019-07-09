@@ -176,16 +176,7 @@ footer:hover{
 	color:red;
 	border-radius: 30px 0px 30px;
 }
-	
-.parallax-container .parallax-image {
-      width: 100%;
-	height: auto;
-}
-	.separator{
-		margin-top: 1000px;
-	}
-	.carousel .carousel-image {
-	}
+
 
 	</style>
 
@@ -215,7 +206,6 @@ footer:hover{
     <a class="carousel-item" href="#eight!"><img src="images/ii.jpg"></a>
     <a class="carousel-item" href="#nine!"><img src="images/jj.jpg"></a>
     <a class="carousel-item" href="#ten!"><img src="images/kk.jpg"></a>
-	
   </div>
       
 <img src="images/aa.jpg" height="350px" width="350px">
@@ -231,36 +221,10 @@ footer:hover{
 
 </center>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
+<div class="separator">
 <h1><i>Some of my shots</h1></i>
+</div>
 <div class="parallax-container">
 
 <img src="images/shots1.jpg" height="350px" width="350px">
@@ -290,7 +254,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
     var instances = M.Carousel.init(elems, {
 	   "duration: 300,
-	    "indicators": true
+	    "indicators": true,
+	    "numVisible": 10
     });
   });
 </script>
