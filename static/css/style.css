@@ -16,7 +16,7 @@
     top: 0;
     width: 100vw;
     height: 100vh;
-    background-url:<img src="images/galaxy.jpg">;
+    background:url("galaxy.jpg"); 
     z-index: -1000000000000000;
 }
 
