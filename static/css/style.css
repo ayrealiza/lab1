@@ -1,11 +1,12 @@
-
+* {
+    color: #ffffff;
+}
 
 .navbar {
     margin-bottom: 30px;
 }
 
 .navbar, .navbar *, .page-footer, .page-footer * {
-    background-color: #FFFFFF;
     color: #FFFFFF !important;
     box-shadow: 0 0 0;
 }
