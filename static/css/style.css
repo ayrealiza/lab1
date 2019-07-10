@@ -13,9 +13,7 @@
 }
 
 .msc {
-    position: fixed;
-    left: 0;
-    top: 0;
+  
     background-image:url("../images/galaxy.jpg"); 
     background-repeat:no-repeat;
     background-size:100%;
