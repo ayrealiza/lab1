@@ -16,10 +16,9 @@
     position: fixed;
     left: 0;
     top: 0;
-    width: 100vw;
-    height: 100vh;
     background-image:url("../images/galaxy.jpg"); 
     background-repeat:no-repeat;
+    background-size:100%;
     z-index: -1000000000000000;
 }
 
