@@ -7,6 +7,7 @@
 }
 
 .navbar, .navbar *, .page-footer, .page-footer * {
+    background-color: #ffffff00;
     color: #FFFFFF !important;
     box-shadow: 0 0 0;
 }
@@ -18,6 +19,7 @@
     width: 100vw;
     height: 100vh;
     background-image:url("../images/galaxy.jpg"); 
+    background-repeat:no-repeat;
     z-index: -1000000000000000;
 }
 
