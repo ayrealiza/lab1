@@ -12,6 +12,10 @@
     box-shadow: 0 0 0;
 }
 
+.aaron-card-more {
+    color: #111111;
+}
+
 .msc {
     position: fixed;
     top:0;
