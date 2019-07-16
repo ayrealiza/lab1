@@ -1,11 +1,6 @@
 * {
     color: #ffffff;
 }
-.marquee {
-	overflow-x: marquee-line;
-	marquee-style: scroll;
-	marquee-speed: fast;
-}
 .navbar {
     margin-bottom: 30px;
 }
